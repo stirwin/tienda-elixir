@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/*dm sans*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/*abril falface*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.backdrop-saturate-150 {
+    --tw-backdrop-saturate: none !important;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
